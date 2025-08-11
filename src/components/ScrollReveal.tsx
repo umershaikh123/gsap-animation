@@ -118,7 +118,7 @@ export default function ScrollReveal() {
   }, { scope: container });
 
   return (
-    <section ref={container} className="min-h-[200vh] bg-gradient-to-b from-gray-800 to-gray-900 py-32">
+    <section ref={container} id="reveal" className="min-h-[200vh] bg-gradient-to-b from-gray-800 to-gray-900 py-32">
       <div className="container mx-auto px-6">
         {/* Title with reveal effect */}
         <div className="text-center mb-32">
